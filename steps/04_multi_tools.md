@@ -27,7 +27,7 @@ O que vamos aprender aqui:
     pip install requests
     ```
 
-    Esta biblioteca será responsável por fazer requisições HTTP na API de Pokémons https://pokeapi.co/
+    Esta biblioteca será responsável por fazer requisições HTTP na API de Pokémons [https://pokeapi.co/](https://pokeapi.co/).
 
 
 3. Importe as ferramentas do arquivo `tools_pokeapi.py`
