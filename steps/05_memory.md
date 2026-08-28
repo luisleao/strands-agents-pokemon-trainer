@@ -51,4 +51,8 @@ O que vamos aprender aqui:
     ```
 
 
+5. Workshop finalizado!
 
+    > Se você estiver na AWS Developers House no HackTown, mostre seu código para algum staff que esteja mentorando a área de workshops para validar seu passaporte!
+
+    Você pode continuar ajustando seu código e criar outras coisas utilizando Strands Agents. Caso tenha interesse em prosseguir, verifique o item [06 Extra](06_EXTRA.md).
