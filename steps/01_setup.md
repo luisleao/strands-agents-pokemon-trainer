@@ -33,7 +33,6 @@ O que vamos aprender aqui:
 
 5. Execute o arquivo `app.py`
 
-
     ```bash
     python app.py
     ```
