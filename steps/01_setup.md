@@ -1,5 +1,13 @@
 # Passo 1: Configure o seu ambiente
 
+O que vamos aprender aqui:
+* Instalação de um modelo off-line (Ollama)
+* Criação do ambiente virtual Python
+* Execução da aplicação Python
+
+
+## Passo-a-passo
+
 
 1. Você deve estar utilizando a IDE de sua preferência, com python 3.1+ instalado
 
