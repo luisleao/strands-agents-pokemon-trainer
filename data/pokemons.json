@@ -1,0 +1,397 @@
+{
+  "descricao": "Pokédex estratégica para treinadores - inclui habilidades, poderes, forças e fraquezas",
+  "total": 10,
+  "pokedex": [
+    {
+      "id": 25,
+      "nome": "Pikachu",
+      "tipos": [
+        "electric"
+      ],
+      "habilidades": [
+        "Static",
+        "Lightning Rod"
+      ],
+      "poderes": [
+        "Thunderbolt",
+        "Volt Tackle",
+        "Iron Tail",
+        "Quick Attack",
+        "Electro Ball",
+        "Thunder"
+      ],
+      "stats": {
+        "hp": 35,
+        "attack": 55,
+        "defense": 40,
+        "special-attack": 50,
+        "special-defense": 50,
+        "speed": 90
+      },
+      "forte_contra": [
+        "water",
+        "flying"
+      ],
+      "fraco_contra": [
+        "ground"
+      ]
+    },
+    {
+      "id": 6,
+      "nome": "Charizard",
+      "tipos": [
+        "fire",
+        "flying"
+      ],
+      "habilidades": [
+        "Blaze",
+        "Solar Power"
+      ],
+      "poderes": [
+        "Flamethrower",
+        "Air Slash",
+        "Dragon Claw",
+        "Fire Blast",
+        "Heat Wave",
+        "Earthquake"
+      ],
+      "stats": {
+        "hp": 78,
+        "attack": 84,
+        "defense": 78,
+        "special-attack": 109,
+        "special-defense": 85,
+        "speed": 100
+      },
+      "forte_contra": [
+        "grass",
+        "ice",
+        "bug",
+        "steel",
+        "fighting"
+      ],
+      "fraco_contra": [
+        "water",
+        "electric",
+        "rock"
+      ]
+    },
+    {
+      "id": 9,
+      "nome": "Blastoise",
+      "tipos": [
+        "water"
+      ],
+      "habilidades": [
+        "Torrent",
+        "Rain Dish"
+      ],
+      "poderes": [
+        "Hydro Pump",
+        "Surf",
+        "Ice Beam",
+        "Rapid Spin",
+        "Dark Pulse",
+        "Aura Sphere"
+      ],
+      "stats": {
+        "hp": 79,
+        "attack": 83,
+        "defense": 100,
+        "special-attack": 85,
+        "special-defense": 105,
+        "speed": 78
+      },
+      "forte_contra": [
+        "fire",
+        "ground",
+        "rock"
+      ],
+      "fraco_contra": [
+        "electric",
+        "grass"
+      ]
+    },
+    {
+      "id": 3,
+      "nome": "Venusaur",
+      "tipos": [
+        "grass",
+        "poison"
+      ],
+      "habilidades": [
+        "Overgrow",
+        "Chlorophyll"
+      ],
+      "poderes": [
+        "Solar Beam",
+        "Sludge Bomb",
+        "Giga Drain",
+        "Sleep Powder",
+        "Leech Seed",
+        "Earthquake"
+      ],
+      "stats": {
+        "hp": 80,
+        "attack": 82,
+        "defense": 83,
+        "special-attack": 100,
+        "special-defense": 100,
+        "speed": 80
+      },
+      "forte_contra": [
+        "water",
+        "ground",
+        "rock",
+        "fairy"
+      ],
+      "fraco_contra": [
+        "fire",
+        "ice",
+        "flying",
+        "psychic"
+      ]
+    },
+    {
+      "id": 94,
+      "nome": "Gengar",
+      "tipos": [
+        "ghost",
+        "poison"
+      ],
+      "habilidades": [
+        "Cursed Body"
+      ],
+      "poderes": [
+        "Shadow Ball",
+        "Sludge Wave",
+        "Focus Blast",
+        "Thunderbolt",
+        "Destiny Bond",
+        "Hypnosis"
+      ],
+      "stats": {
+        "hp": 60,
+        "attack": 65,
+        "defense": 60,
+        "special-attack": 130,
+        "special-defense": 75,
+        "speed": 110
+      },
+      "forte_contra": [
+        "psychic",
+        "ghost",
+        "grass",
+        "fairy"
+      ],
+      "fraco_contra": [
+        "ground",
+        "psychic",
+        "ghost",
+        "dark"
+      ]
+    },
+    {
+      "id": 149,
+      "nome": "Dragonite",
+      "tipos": [
+        "dragon",
+        "flying"
+      ],
+      "habilidades": [
+        "Inner Focus",
+        "Multiscale"
+      ],
+      "poderes": [
+        "Dragon Claw",
+        "Hurricane",
+        "Extreme Speed",
+        "Fire Punch",
+        "Thunder Punch",
+        "Outrage"
+      ],
+      "stats": {
+        "hp": 91,
+        "attack": 134,
+        "defense": 95,
+        "special-attack": 100,
+        "special-defense": 100,
+        "speed": 80
+      },
+      "forte_contra": [
+        "dragon",
+        "grass",
+        "fighting",
+        "bug"
+      ],
+      "fraco_contra": [
+        "ice",
+        "dragon",
+        "fairy",
+        "rock"
+      ]
+    },
+    {
+      "id": 448,
+      "nome": "Lucario",
+      "tipos": [
+        "fighting",
+        "steel"
+      ],
+      "habilidades": [
+        "Steadfast",
+        "Inner Focus",
+        "Justified"
+      ],
+      "poderes": [
+        "Aura Sphere",
+        "Flash Cannon",
+        "Close Combat",
+        "Extreme Speed",
+        "Meteor Mash",
+        "Swords Dance"
+      ],
+      "stats": {
+        "hp": 70,
+        "attack": 110,
+        "defense": 70,
+        "special-attack": 115,
+        "special-defense": 70,
+        "speed": 90
+      },
+      "forte_contra": [
+        "normal",
+        "ice",
+        "rock",
+        "dark",
+        "fairy"
+      ],
+      "fraco_contra": [
+        "fire",
+        "fighting",
+        "ground"
+      ]
+    },
+    {
+      "id": 282,
+      "nome": "Gardevoir",
+      "tipos": [
+        "psychic",
+        "fairy"
+      ],
+      "habilidades": [
+        "Synchronize",
+        "Trace",
+        "Telepathy"
+      ],
+      "poderes": [
+        "Moonblast",
+        "Psychic",
+        "Focus Blast",
+        "Thunderbolt",
+        "Shadow Ball",
+        "Calm Mind"
+      ],
+      "stats": {
+        "hp": 68,
+        "attack": 65,
+        "defense": 65,
+        "special-attack": 125,
+        "special-defense": 115,
+        "speed": 80
+      },
+      "forte_contra": [
+        "fighting",
+        "dragon",
+        "dark",
+        "poison"
+      ],
+      "fraco_contra": [
+        "poison",
+        "steel",
+        "ghost"
+      ]
+    },
+    {
+      "id": 248,
+      "nome": "Tyranitar",
+      "tipos": [
+        "rock",
+        "dark"
+      ],
+      "habilidades": [
+        "Sand Stream",
+        "Unnerve"
+      ],
+      "poderes": [
+        "Stone Edge",
+        "Crunch",
+        "Earthquake",
+        "Ice Punch",
+        "Fire Punch",
+        "Dragon Dance"
+      ],
+      "stats": {
+        "hp": 100,
+        "attack": 134,
+        "defense": 110,
+        "special-attack": 95,
+        "special-defense": 100,
+        "speed": 61
+      },
+      "forte_contra": [
+        "fire",
+        "ice",
+        "flying",
+        "bug",
+        "psychic",
+        "ghost"
+      ],
+      "fraco_contra": [
+        "water",
+        "grass",
+        "fighting",
+        "ground",
+        "steel",
+        "bug",
+        "fairy"
+      ]
+    },
+    {
+      "id": 150,
+      "nome": "Mewtwo",
+      "tipos": [
+        "psychic"
+      ],
+      "habilidades": [
+        "Pressure",
+        "Unnerve"
+      ],
+      "poderes": [
+        "Psystrike",
+        "Aura Sphere",
+        "Shadow Ball",
+        "Ice Beam",
+        "Thunderbolt",
+        "Calm Mind"
+      ],
+      "stats": {
+        "hp": 106,
+        "attack": 110,
+        "defense": 90,
+        "special-attack": 154,
+        "special-defense": 90,
+        "speed": 130
+      },
+      "forte_contra": [
+        "fighting",
+        "poison"
+      ],
+      "fraco_contra": [
+        "bug",
+        "ghost",
+        "dark"
+      ]
+    }
+  ]
+}
