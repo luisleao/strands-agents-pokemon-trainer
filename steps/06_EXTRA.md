@@ -62,35 +62,3 @@ Não será necessário tratar recebimento de arquivos multimídia, porém você 
 
 Consulte a documentação [Voice &amp; Realtime](https://strandsagents.com/docs/user-guide/concepts/bidirectional-streaming/quickstart/?trk=6ac81577-2c30-4287-a906-3e10c4cf7625&sc_channel=el) e implemente seu assistente com voz.
 
-
-O que vamos aprender aqui:
-* 
-
-
-## Passo-a-passo
-
-Crea `05_nube.py`. El mismo agente, cambiando una línea: `OllamaModel` → `BedrockModel`.
-
-Agrega la dependencia:
-
-```bash
-pip install "botocore[crt]"
-```
-
-`botocore[crt]` agrega el AWS Common Runtime, necesario si usas credenciales SSO (`aws sso login`).
-
-El cambio clave en el código:
-
-```python
-# Antes (local):
-from strands.models.ollama import OllamaModel
-modelo = OllamaModel(host="http://localhost:11434", model_id="llama3.1")
-
-# Después (nube):
-from strands.models import BedrockModel
-modelo = BedrockModel(model_id="us.anthropic.claude-opus-4-6-v1")
-```
-
-El resto del código — system prompt, tools, lógica — es idéntico.
-
-
