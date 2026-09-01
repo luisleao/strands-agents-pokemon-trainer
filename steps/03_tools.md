@@ -10,6 +10,13 @@ O que vamos aprender aqui:
 
 ## Passo-a-passo
 
+A partir deste passo você vai copiar e colar blocos de código.
+
+Em cada etapa explicamos qual a funçnao de cada bloco.
+
+Sempre cole no arquivo `app.py` e obedeça a ordem das funções.
+
+
 
 1. Ajustar o prompt de systema para incluir
 
@@ -63,7 +70,7 @@ O que vamos aprender aqui:
     import json
     from pathlib import Path
 
-    POKEMONS = json.loads(Path("data/pokemons.json").read_text())
+    POKEDEX_DATA = json.loads(Path("data/pokemons.json").read_text()).pokemons
     ```
 
 3. Implemente as funções das ferramentas
@@ -111,6 +118,10 @@ O que vamos aprender aqui:
     ```
 
 4. Implemente um callback handler para monitorar o que está acontecendo.
+
+    Este callback handler permite que você acompanha a execução do `agentic loop`, que roda continuamente entre raciocínio, ação e observação. Uma vez que o objetivo do prompt de sistema é alcançado, o loop se encerra.
+
+
     ```python
 
     _after_tool = False

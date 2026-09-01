@@ -16,6 +16,10 @@ Este workshop foi construído para exemplificar o uso de [Strands Agents](https:
 
 ## Como executar este workshop?
 
+* Clone este repositório
+    ```bash
+    git clone https://github.com/luisleao/strands-agents-pokemon-trainer/
+    ```
 * Utilize a pasta `steps` para executar o passo-a-passo do nosso workshop.
 * Você deve executar as etapas em todos os passos de forma sequencial.
 * Você deve alterar unicamente o arquivo `app.py`

@@ -29,8 +29,6 @@ O que vamos aprender aqui:
     pip install "strands-agents[ollama]"
     ```
 
-    Edite o arquivo 
-
 5. Execute o arquivo `app.py`
 
     ```bash

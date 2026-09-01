@@ -9,6 +9,14 @@ O que vamos aprender aqui:
 
 ## Passo-a-passo
 
+A partir deste passo você vai copiar e colar blocos de código.
+
+Em cada etapa explicamos qual a funçnao de cada bloco.
+
+Sempre cole no arquivo `app.py` e obedeça a ordem das funções.
+
+
+
 1. Inicialize a biblioteca do Strands Agents
 
     ```python
@@ -76,7 +84,7 @@ O que vamos aprender aqui:
     python app.py
     ```
 
-    Veja que o formato da resposta mudou e agora direciona para que você continue a conversa.
+    Observe que o formato da resposta mudou, uma vez que passamos mais instruções no prompt de sistema e agora direciona para que você continue a conversa.
 
     No próximo passo vamos incluir um loop de conversação.
 

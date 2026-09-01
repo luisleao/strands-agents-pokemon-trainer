@@ -1,6 +1,8 @@
 # Atividades Extras
 
-Aqui estão algumas ideias para implementações que serão consideradas como extras e podem te garantir um brinde especial se estiver no HackTown 2026:
+Aqui estão algumas ideias para implementações que serão consideradas como extras e podem te garantir um brinde especial se estiver no HackTown 2026.
+
+> Você não precisa implementar todas, escolha a que acha mais interessante como desafio e implemente-a. Ao concluir, mostre para o time da AWS que está na área de workshops.
 
 
 ## Publique seu agente em produção na AWS utilizando [Amazon Bedrock](https://aws.amazon.com/pt/bedrock/?trk=6ac81577-2c30-4287-a906-3e10c4cf7625&sc_channel=el)
@@ -52,7 +54,7 @@ Faça a combinação de APIs, assim você poderá entender melhor como funciona 
 
 Você vai precisar implementar um endpoint web que servirá como WebHook do WhatsApp.
 
-Você pode utilizar o ambiente de testes do WhatsApp, seja via API oficial ou pela API da Twilio.
+Você pode utilizar o ambiente de testes do WhatsApp, seja via [API oficial de WhatsApp da Meta](https://developers.facebook.com/documentation/business-messaging/whatsapp/get-started) ou pela [API da Twilio](https://developers.facebook.com/documentation/business-messaging/whatsapp/get-started).
 
 Não será necessário tratar recebimento de arquivos multimídia, porém você deve implementar o tratamento caso receba um arquivo na mensagem.
 

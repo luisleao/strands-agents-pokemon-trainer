@@ -8,6 +8,13 @@ O que vamos aprender aqui:
 
 ## Passo-a-passo
 
+A partir deste passo você vai copiar e colar blocos de código.
+
+Em cada etapa explicamos qual a funçnao de cada bloco.
+
+Sempre cole no arquivo `app.py` e obedeça a ordem das funções.
+
+
 1. Limpe as ferramentas que estão fazendo acesso ao arquivo estático
 
     Comente os blocos de código relacionados às ferramentas que estão utilizando os arquivos estátivos
@@ -15,7 +22,7 @@ O que vamos aprender aqui:
     ```python
     # import json
     # from pathlib import Path
-    # POKEMONS = json.loads(Path("./data/pokemons.json").read_text())
+    # POKEDEX_DATA = json.loads(Path("data/pokemons.json").read_text()).pokemons
     ```
 
     E também as funções `def buscar_pokemon(nome: str) -> str:` e `ef listar_pokemons() -> str:`
@@ -61,7 +68,6 @@ O que vamos aprender aqui:
             buscar_cadeia_evolucao,
             buscar_natureza,
         ],
-        session_manager=session_manager,
         callback_handler=callback_handler
     )
 

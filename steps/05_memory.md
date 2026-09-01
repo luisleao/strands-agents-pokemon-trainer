@@ -5,8 +5,13 @@ O que vamos aprender aqui:
 * Implementar o gerenciamento de memória do agente
 
 
-
 ## Passo-a-passo
+
+A partir deste passo você vai copiar e colar blocos de código.
+
+Em cada etapa explicamos qual a funçnao de cada bloco.
+
+Sempre cole no arquivo `app.py` e obedeça a ordem das funções.
 
 1. Importe a biblioteca de gerenciamento de sessão por arquivos (FileSessionManager) no seu código
 
