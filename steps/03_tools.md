@@ -5,7 +5,7 @@ O que vamos aprender aqui:
 * Criar uma nova ferramenta para consultar um arquivo local
 * Implementar uma função de callback para monitorar a execução das ferramentas
 * Ajustar o prompt de sistema para criar guardrails
-* 
+
 
 
 ## Passo-a-passo
@@ -70,7 +70,7 @@ Sempre cole no arquivo `app.py` e obedeça a ordem das funções.
     import json
     from pathlib import Path
 
-    POKEDEX_DATA = json.loads(Path("data/pokemons.json").read_text()).pokemons
+    POKEDEX_DATA = json.loads(Path("data/pokemons.json").read_text())["pokedex"]
     ```
 
 3. Implemente as funções das ferramentas
