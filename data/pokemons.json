@@ -2,40 +2,7 @@
   "descricao": "Pokédex estratégica para treinadores - inclui habilidades, poderes, forças e fraquezas",
   "total": 10,
   "pokedex": [
-    {
-      "id": 25,
-      "nome": "Pikachu",
-      "tipos": [
-        "electric"
-      ],
-      "habilidades": [
-        "Static",
-        "Lightning Rod"
-      ],
-      "poderes": [
-        "Thunderbolt",
-        "Volt Tackle",
-        "Iron Tail",
-        "Quick Attack",
-        "Electro Ball",
-        "Thunder"
-      ],
-      "stats": {
-        "hp": 35,
-        "attack": 55,
-        "defense": 40,
-        "special-attack": 50,
-        "special-defense": 50,
-        "speed": 90
-      },
-      "forte_contra": [
-        "water",
-        "flying"
-      ],
-      "fraco_contra": [
-        "ground"
-      ]
-    },
+   
     {
       "id": 6,
       "nome": "Charizard",
